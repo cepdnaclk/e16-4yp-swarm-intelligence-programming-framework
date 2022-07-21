@@ -4,8 +4,8 @@ This will be part of the larger [PeraSwarm](https://pera-swarm.ce.pdn.ac.lk/) pr
 
 #### Team
 
-- E/16/094, S.M. Ekanayaka, [e16094@eng.pdn.ac.lk](mailto:e16094@eng.pdn.ac.lk), [github](https://github.com/kavindumadushanka972)
-- E/16/221, H.M.K. Madushanka, [e16221@eng.pdn.ac.lk](mailto:e16221@eng.pdn.ac.lk), [github](https://github.com/shirlymadushanka)
+- E/16/094, S.M. Ekanayaka, [e16094@eng.pdn.ac.lk](mailto:e16094@eng.pdn.ac.lk), [github](https://github.com/shirlymadushanka)
+- E/16/221, H.M.K. Madushanka, [e16221@eng.pdn.ac.lk](mailto:e16221@eng.pdn.ac.lk), [github](https://github.com/kavindumadushanka972) 
 - E/16/275, A.L.H.E. Perera, [e16275@eng.pdn.ac.lk](mailto:e16275@eng.pdn.ac.lk), [github](https://github.com/HashanEranga)
 
 #### Supervisors
