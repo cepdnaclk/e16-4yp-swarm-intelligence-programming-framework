@@ -3,24 +3,27 @@ layout: home
 permalink: index.html
 
 # Please update this with your repository name and title
-repository-name: eYY-4yp-project-template
-title:
+repository-name: e16-4yp-swarm-intelligence-programming-framework
+title: Swarm Intelligence Programming Framework
 ---
 
 [comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
 
-# Project Title
+# Swarm Intelligence Programming Framework
 
 #### Team
 
-- E/16/094, S.M. Ekanayaka, [email](mailto:e16094@eng.pdn.ac.lk)
-- E/16/221, H.M.K. Madushanka, [email](mailto:e16221@eng.pdn.ac.lk)
-- E/16/275, A.L.H.E. Perera, [email](mailto:e16275@eng.pdn.ac.lk)
+- E/16/094, S.M. Ekanayaka, [e16094@eng.pdn.ac.lk](mailto:e16094@eng.pdn.ac.lk)
+- E/16/221, H.M.K. Madushanka, [e16221@eng.pdn.ac.lk](mailto:e16221@eng.pdn.ac.lk)
+- E/16/275, A.L.H.E. Perera, [e16275@eng.pdn.ac.lk](mailto:e16275@eng.pdn.ac.lk)
 
 #### Supervisors
 
-- Name, [email](mailto:name@eng.pdn.ac.lk)
-- Name, [email](mailto:name@eng.pdn.ac.lk)
+- Dr. Isuru Nawinne, [isurunawinne@eng.pdn.ac.lk](mailto:isurunawinne@eng.pdn.ac.lk)
+- Prof. Roshan Ragel, [roshanr@eng.pdn.ac.lk](mailto:roshanr@eng.pdn.ac.lk)
+- Dr. Sithumini Ekanayake, [sithuminie@eng.pdn.ac.lk](mailto:sithuminie@eng.pdn.ac.lk)
+- Mr. Nuwan Jaliyagoda, [nuwanjaliyagoda@eng.pdn.ac.lk](mailto:nuwanjaliyagoda@eng.pdn.ac.lk)
+- Ms. Dilshani Karunarathne, [dilshanik@eng.pdn.ac.lk](mailto:dilshanik@eng.pdn.ac.lk)
 
 #### Table of content
 
@@ -35,9 +38,9 @@ title:
 
 ---
 
-DELETE THIS SAMPLE before publishing to GitHub Pages !!!
+<!-- DELETE THIS SAMPLE before publishing to GitHub Pages !!!
 This is a sample image, to show how to add images to your page. To learn more options, please refer [this](https://projects.ce.pdn.ac.lk/docs/faq/how-to-add-an-image/)
-![Sample Image](./images/sample.png)
+![Sample Image](./images/sample.png) -->
 
 
 ## Abstract
