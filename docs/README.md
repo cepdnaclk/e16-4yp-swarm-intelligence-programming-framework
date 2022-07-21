@@ -13,9 +13,9 @@ title:
 
 #### Team
 
-- eNumber, Name, [email](mailto:name@email.com)
-- eNumber, Name, [email](mailto:name@email.com)
-- eNumber, Name, [email](mailto:name@email.com)
+- E/16/094, S.M. Ekanayaka, [email](mailto:e16094@eng.pdn.ac.lk)
+- E/16/221, H.M.K. Madushanka, [email](mailto:e16221@eng.pdn.ac.lk)
+- E/16/275, A.L.H.E. Perera, [email](mailto:e16275@eng.pdn.ac.lk)
 
 #### Supervisors
 
