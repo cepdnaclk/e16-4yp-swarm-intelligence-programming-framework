@@ -21,6 +21,7 @@ title: Swarm Intelligence Programming Framework
 
 - Dr. Isuru Nawinne, [isurunawinne@eng.pdn.ac.lk](mailto:isurunawinne@eng.pdn.ac.lk)
 - Prof. Roshan Ragel, [roshanr@eng.pdn.ac.lk](mailto:roshanr@eng.pdn.ac.lk)
+- Dr. Mahanama Wickramasinghe, [mahanamaw@eng.pdn.ac.lk](mailto:mahanamaw@eng.pdn.ac.lk)
 - Dr. Sithumini Ekanayake, [sithuminie@eng.pdn.ac.lk](mailto:sithuminie@eng.pdn.ac.lk)
 - Mr. Nuwan Jaliyagoda, [nuwanjaliyagoda@eng.pdn.ac.lk](mailto:nuwanjaliyagoda@eng.pdn.ac.lk)
 - Ms. Dilshani Karunarathne, [dilshanik@eng.pdn.ac.lk](mailto:dilshanik@eng.pdn.ac.lk)
