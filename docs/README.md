@@ -46,7 +46,7 @@ This is a sample image, to show how to add images to your page. To learn more op
 
 ## Abstract
 
-This will be part of the larger [PeraSwarm]('https://pera-swarm.ce.pdn.ac.lk) project. It currently have a robotic multi-agent systems testbed with different types of robot hardware, virtual robots and a simulation environment. This particular project will focus on building a high-level programming and compiler framework which can be used to "write" or "draw" algorithms and convert them into low-level code. The framework will support multiple different types of robot hardware (both real and virtual).
+This will be part of the larger [PeraSwarm](https://pera-swarm.ce.pdn.ac.lk) project. It currently have a robotic multi-agent systems testbed with different types of robot hardware, virtual robots and a simulation environment. This particular project will focus on building a high-level programming and compiler framework which can be used to "write" or "draw" algorithms and convert them into low-level code. The framework will support multiple different types of robot hardware (both real and virtual).
 
 ## Related works
 
@@ -57,10 +57,12 @@ This will be part of the larger [PeraSwarm]('https://pera-swarm.ce.pdn.ac.lk) pr
 - EmSBot Script : A smaller virtual machine based software framework for addressing most challenging aspects in programming swarms robots. 
 
 ## Methodology
+---
 
-### Solution Architecture
 
-Highlevel view of the solution           |  Solution
+#### Solution Architecture
+
+Highlevel view of the solution |  Solution
 :-------------------------:|:-------------------------:
 ![](./images/1.png)  |  ![](./images/2.png)
 
