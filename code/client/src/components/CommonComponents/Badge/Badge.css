@@ -1,0 +1,14 @@
+.bg-green-badge {
+    background: rgba(41, 199, 112, 0.2);
+    color: #29c770;
+}
+
+.bg-red-badge {
+    background: rgba(245, 34, 45, 0.2);
+    color: #f5222d;
+}
+
+.bg-blue-badge {
+    background: rgba(19, 194, 194, 0.2);
+    color: #13c2c2;
+}

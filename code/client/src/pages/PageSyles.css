@@ -1,0 +1,46 @@
+/* antd card styles customization */
+.ant-card {
+    background: #283046 !important;
+    border-radius: 5px;
+    border: none;
+}
+
+/* antd input component customization */
+.ant-input {
+    border-radius: 5px;
+}
+
+/* antd select component customization */
+.ant-select-selector {
+    border-radius: 5px !important;
+}
+
+/* button styling for primary button */
+.rugfree-button-primary {
+    width: 100px;
+    border-radius: 5px;
+    border-color: #29c770;
+    color: #29c770;
+}
+
+.rugfree-button-primary:hover {
+    border-radius: 5px;
+    border-color: #29c770;
+    color: #fff;
+    background-color: #29c770;
+    box-shadow: 0 4px 8px 0 rgba(41, 199, 112, 0.5), 0 6px 20px 0 rgba(41, 199, 112, 0.5);
+}
+
+.rugfree-button-primary:focus {
+    border-radius: 5px;
+    border-color: #29c770;
+    color: #fff;
+    background-color: #29c770;
+    box-shadow: 0 4px 8px 0 rgba(41, 199, 112, 0.5), 0 6px 20px 0 rgba(41, 199, 112, 0.5);
+}
+
+.table-action-icon {
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}

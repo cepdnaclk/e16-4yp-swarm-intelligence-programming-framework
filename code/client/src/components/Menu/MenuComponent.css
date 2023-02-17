@@ -1,0 +1,8 @@
+.ant-menu{
+  border-right: none !important;
+}
+
+/* antd expanded submenu background color */
+.ant-menu-submenu > .ant-menu {
+  background-color: #15161b !important;
+}

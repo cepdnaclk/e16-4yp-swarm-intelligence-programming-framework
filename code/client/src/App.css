@@ -1,0 +1,38 @@
+@import 'antd/dist/antd.css';
+
+.terminal {
+    font-family: 'Source Code Pro', monospace;
+    background: #262626;
+    height: 400px;
+    overflow-y: scroll;
+}
+
+/* response messages in separate lines */
+.response-msg {
+    white-space: pre;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.fill-height {
+    height: calc(100vh - 114px);
+}
+
+#blocklyDiv {
+    height:calc(100vh - 114px);
+    padding: 2rem 0;
+    width: 100%;
+}
+
+/* Connector color change */
+.ant-steps-item-title:after {
+    height: 2px !important;
+}
+
+.step-area {
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
