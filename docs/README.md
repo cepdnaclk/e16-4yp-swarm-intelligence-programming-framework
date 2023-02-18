@@ -132,7 +132,7 @@ This architecture provides a streamlined and efficient way of generating and dep
 ---
 
 <p align="center">
-    <img src="./images/image8.png" alt="ota-upload" width="700" />
+    <img src="./images/image8.png" alt="ota-upload" width="800" />
 </p>
 
 For over-the-air (OTA) updates of our swarm robot system, we use MQTT messaging to send the generated binaries from our framework to the robots. When an update is available, an MQTT message is sent to the robots directing them to download the relevant binaries from the server. Each robot then downloads the appropriate binaries from the server and installs them, allowing the updated swarm behavior to be executed. 
@@ -148,13 +148,15 @@ As a result of our work, we were able to successfully integrate the Google Block
 
 ## Conclusion
 
+In conclusion, our work has demonstrated the feasibility of using a high-level programming and compiler framework to create and deploy complex swarm behaviors on a multi-agent robot system. While our implementation focused on physical robots due to time limitations, this project could be extended to work with virtual robots as well, providing a more flexible and accessible platform for swarm programming. Additionally, further work could be done to implement a wider variety of swarm behaviors based on our swarm behavior models, providing a more diverse range of capabilities for the robot swarm. Overall, we believe that our approach provides a powerful and effective way to program multi-robot systems and has the potential for a wide range of applications in various fields.
+
 ## Publications
 [//]: # "Note: Uncomment each once you uploaded the files to the repository"
 
-<!-- 1. [Semester 7 report](./) -->
-<!-- 2. [Semester 7 slides](./) -->
-<!-- 3. [Semester 8 report](./) -->
-<!-- 4. [Semester 8 slides](./) -->
+1. [Semester 7 report](./publications/semester_7_report.pdf)
+2. [Semester 7 slides](./publications/semester_7_slides.pdf)
+3. [Semester 8 report](./)
+4. [Semester 8 slides](./publications/semester_8_slides.pdf)
 <!-- 5. Author 1, Author 2 and Author 3 "Research paper title" (2021). [PDF](./). -->
 
 
