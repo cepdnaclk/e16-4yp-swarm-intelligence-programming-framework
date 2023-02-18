@@ -142,8 +142,9 @@ For over-the-air (OTA) updates of our swarm robot system, we use MQTT messaging 
 
 As a result of our work, we were able to successfully integrate the Google Blockly tool into our system, providing an intuitive way for swarm programmers to create and visualize swarm behaviors. We also developed a custom JavaScript to C++ code generator to convert Blockly JavaScript code into C++ code, allowing the generated code to be executed on our robot hardware. By using MQTT to upload the code to the robots, we were able to successfully demonstrate a color ripple algorithm, highlighting the effectiveness of our approach.
 
-[![Demo Video](https://img.youtube.com/vi/QiCPhQCV91k/0.jpg)](https://www.youtube.com/watch?v=QiCPhQCV91k)
-
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=QiCPhQCV91k"><img src="https://img.youtube.com/vi/QiCPhQCV91k/0.jpg" alt="ALT_TEXT"></a>
+</p>
 
 ## Conclusion
 
