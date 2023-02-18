@@ -76,6 +76,7 @@ Prior to commencing development, we first took a "bottom-up" approach and create
 
 <p align="center">
     <img src="./images/image7.png" alt="swarm-behaviours" width="600" />
+    <span>Figure 01: Swarm Behaviors</span>
 </p>
 
 
@@ -84,10 +85,12 @@ After creating these behaviors, our focus shifted to the algorithm switching com
 
 <p align="center">
     <img src="./images/image6.png" alt="algorithm-switching-1"  width="600" />
+    <span>Figure 02: Algorith Switching - I</span>
 </p>
 
 <p align="center">
     <img src="./images/image5.png" alt="algorithm-switching-2" width="600" />
+    <span>Figure 03: Algorith Switching - II</span>
 </p>
 
 This approach provides a flexible and efficient way of managing multiple algorithms for a swarm of robots, allowing them to adapt to changing environmental conditions in real-time.
@@ -96,19 +99,21 @@ An example of a complex swarm behavior that can be implemented using our atomic 
 
 <p align="center">
     <img src="./images/image1.png" alt="follow-the-leader" width="600" />
+    <span>Figure 04: Follow The Leader</span>
 </p>
 
 We have all the necessary methodologies at this time to begin implementing our framework.
 
 ## Experiment Setup and Implementation
 
-### Big picture
+### The Big picture
 ---
 
 In summary, our solution involves a high-level programming and compiler framework for creating swarm behaviors, as well as an architecture that allows for easy deployment of those behaviors to multiple robots. The swarm programmer inputs their desired swarm behavior into our web application, which generates C++ code and firmware using our code generator. Then generated code will be converted into binaries. These binaries are then uploaded to the robots using MQTT, enabling the robots to execute the desired swarm behavior.
 
 <p align="center">
     <img src="./images/image3.png" alt="big-picture" width="700" />
+    <span>Figure 05: The Big Picture</span>
 </p>
 
 ### Solution Architecture of SwarmFramework
@@ -116,12 +121,14 @@ In summary, our solution involves a high-level programming and compiler framewor
 
 <p align="center">
     <img src="./images/image2.png" alt="solution-architecture" width="700" />
+    <span>Figure 06: Architecture Diagram</span>
 </p>
 
 Our solution consists of a web application that provides an interface for interacting with the swarm programmer, as well as a backend running on a Linux container.
 
 <p align="center">
     <img src="./images/image4.png" alt="code-generation-process" width="700" />
+    <span>Figure 07: Code Generation</span>
 </p>
 
 When the swarm programmer inputs their desired swarm behavior and dynamic configurations, our algorithm generator generates C++ code, which is then combined with base firmware and fed into PlatformIO Command-Line Interface (CLI) to convert them into binaries. These binaries are then uploaded to the robots, allowing them to execute the desired swarm behavior.
@@ -133,6 +140,7 @@ This architecture provides a streamlined and efficient way of generating and dep
 
 <p align="center">
     <img src="./images/image8.png" alt="ota-upload" width="800" />
+    <span>Figure 08: OTA Upload</span>
 </p>
 
 For over-the-air (OTA) updates of our swarm robot system, we use MQTT messaging to send the generated binaries from our framework to the robots. When an update is available, an MQTT message is sent to the robots directing them to download the relevant binaries from the server. Each robot then downloads the appropriate binaries from the server and installs them, allowing the updated swarm behavior to be executed. 
@@ -143,7 +151,8 @@ For over-the-air (OTA) updates of our swarm robot system, we use MQTT messaging 
 As a result of our work, we were able to successfully integrate the Google Blockly tool into our system, providing an intuitive way for swarm programmers to create and visualize swarm behaviors. We also developed a custom JavaScript to C++ code generator to convert Blockly JavaScript code into C++ code, allowing the generated code to be executed on our robot hardware. By using MQTT to upload the code to the robots, we were able to successfully demonstrate a color ripple algorithm, highlighting the effectiveness of our approach.
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=QiCPhQCV91k"><img src="https://img.youtube.com/vi/QiCPhQCV91k/0.jpg" alt="ALT_TEXT"></a>
+  <a href="https://www.youtube.com/watch?v=QiCPhQCV91k"><img src="https://img.youtube.com/vi/QiCPhQCV91k/0.jpg" alt="ALT_TEXT"></a><br />
+    <span>Figure 09: Demonstration Video</span>
 </p>
 
 ## Conclusion
