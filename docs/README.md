@@ -166,6 +166,8 @@ In conclusion, our work has demonstrated the feasibility of using a high-level p
 
 - [Project Repository](https://github.com/cepdnaclk/e16-4yp-swarm-intelligence-programming-framework)
 - [Project Page](https://cepdnaclk.github.io/e16-4yp-swarm-intelligence-programming-framework/)
+- [Pera Swarm - Github Organization](https://github.com/pera-swarm)
+- [Pera Swarm - Official Website](https://pera-swarm.ce.pdn.ac.lk/)
 - [Department of Computer Engineering](http://www.ce.pdn.ac.lk/)
 - [University of Peradeniya](https://eng.pdn.ac.lk/)
 
