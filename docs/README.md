@@ -108,20 +108,20 @@ We have all the necessary methodologies at this time to begin implementing our f
 In summary, our solution involves a high-level programming and compiler framework for creating swarm behaviors, as well as an architecture that allows for easy deployment of those behaviors to multiple robots. The swarm programmer inputs their desired swarm behavior into our web application, which generates C++ code and firmware using our code generator. Then generated code will be converted into binaries. These binaries are then uploaded to the robots using MQTT, enabling the robots to execute the desired swarm behavior.
 
 <p align="center">
-    <img src="./images/image3.png" alt="big-picture" width="600" />
+    <img src="./images/image3.png" alt="big-picture" width="700" />
 </p>
 
 ### Solution Architecture of SwarmFramework
 ---
 
 <p align="center">
-    <img src="./images/image2.png" alt="solution-architecture" width="600" />
+    <img src="./images/image2.png" alt="solution-architecture" width="700" />
 </p>
 
 Our solution consists of a web application that provides an interface for interacting with the swarm programmer, as well as a backend running on a Linux container.
 
 <p align="center">
-    <img src="./images/image4.png" alt="code-generation-process" width="600" />
+    <img src="./images/image4.png" alt="code-generation-process" width="700" />
 </p>
 
 When the swarm programmer inputs their desired swarm behavior and dynamic configurations, our algorithm generator generates C++ code, which is then combined with base firmware and fed into PlatformIO Command-Line Interface (CLI) to convert them into binaries. These binaries are then uploaded to the robots, allowing them to execute the desired swarm behavior.
@@ -132,7 +132,7 @@ This architecture provides a streamlined and efficient way of generating and dep
 ---
 
 <p align="center">
-    <img src="./images/image8.png" alt="ota-upload" width="600" />
+    <img src="./images/image8.png" alt="ota-upload" width="700" />
 </p>
 
 For over-the-air (OTA) updates of our swarm robot system, we use MQTT messaging to send the generated binaries from our framework to the robots. When an update is available, an MQTT message is sent to the robots directing them to download the relevant binaries from the server. Each robot then downloads the appropriate binaries from the server and installs them, allowing the updated swarm behavior to be executed. 
