@@ -49,24 +49,24 @@ This is a sample image, to show how to add images to your page. To learn more op
 The presented project is a component of the larger [PeraSwarm](https://pera-swarm.ce.pdn.ac.lk) project, which encompasses a robotic multi-agent systems testbed featuring a variety of robot hardware, virtual robots, and a simulation environment. The specific focus of this project involves the development of a high-level programming and compiler framework that can facilitate the creation of algorithms via "writing" or "drawing", and then translate them into low-level code. This framework is intended to be compatible with various forms of robot hardware, both physical and virtual. 
 
 ## Related works
-
-#### **On programming paradigms that abstract lower level hardware functionalities:**
+---
+##### **On programming paradigms that abstract lower level hardware functionalities:**
 
 Various programming paradigms have been developed to abstract the lower-level functionalities of hardware in robotics. Such paradigms facilitate the creation of robot control software in high-level programming languages, while still allowing fine-grained control over the hardware. Examples of such programming paradigms include Robot Operating System (ROS), which provides a distributed, modular and component-based framework, and Arduino, which supports C/C++ programming for microcontrollers.
 
-#### **On different frameworks implemented for swarm drones:**
+##### **On different frameworks implemented for swarm drones:**
 
 Swarm drones, which are unmanned aerial vehicles (UAVs) that can operate as a collective, have attracted significant research interest in recent years. A number of different software frameworks have been developed for swarm drone applications, including the Aerial Swarms framework, the PX4 framework, and the AirSim simulator. These frameworks provide a range of features, such as formation control, collision avoidance, and obstacle detection, which facilitate the development of swarm drone applications.
 
-#### **On swarm UI frameworks with codeless approaches:**
+##### **On swarm UI frameworks with codeless approaches:**
 
 Swarm UI frameworks are designed to simplify the creation of user interfaces for swarm robotics applications. These frameworks often employ codeless approaches, such as drag-and-drop interfaces, to make it easier for non-technical users to create and modify the interfaces. Examples of swarm UI frameworks include SwarmUI, which provides a web-based interface for configuring and controlling swarm robots, and SwarmBot, which offers a graphical interface for programming swarm robots.
 
-#### **On a modular framework supporting limited hardware architectures called EmSBot:**
+##### **On a modular framework supporting limited hardware architectures called EmSBot:**
 
 EmSBot is a modular framework designed to support a limited range of hardware architectures. The framework consists of a set of hardware modules and software libraries that can be combined to create robot applications. EmSBot provides a range of features, such as support for different sensors and actuators, and allows for the creation of robot applications using C/C++ or Python programming languages.
 
-#### **On EmSBot Script, a smaller virtual machine-based software framework for programming swarm robots:**
+##### **On EmSBot Script, a smaller virtual machine-based software framework for programming swarm robots:**
 
 EmSBot Script is a smaller virtual machine-based software framework designed to address some of the most challenging aspects of programming swarm robots. The framework allows for the creation of robot applications using a simple scripting language, and provides a range of features such as communication and synchronization mechanisms. EmSBot Script is designed to be lightweight and easy to use, making it a suitable choice for low-end hardware platforms.
 
@@ -142,11 +142,7 @@ For over-the-air (OTA) updates of our swarm robot system, we use MQTT messaging 
 
 As a result of our work, we were able to successfully integrate the Google Blockly tool into our system, providing an intuitive way for swarm programmers to create and visualize swarm behaviors. We also developed a custom JavaScript to C++ code generator to convert Blockly JavaScript code into C++ code, allowing the generated code to be executed on our robot hardware. By using MQTT to upload the code to the robots, we were able to successfully demonstrate a color ripple algorithm, highlighting the effectiveness of our approach.
 
-<!-- [![Demo Video](https://img.youtube.com/vi/QiCPhQCV91k/0.jpg)](https://www.youtube.com/watch?v=QiCPhQCV91k) -->
-
-<p align="center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/QiCPhQCV91k" frameborder="0" allowfullscreen></iframe>
-</p>
+[![Demo Video](https://img.youtube.com/vi/QiCPhQCV91k/0.jpg)](https://www.youtube.com/watch?v=QiCPhQCV91k)
 
 
 ## Conclusion
