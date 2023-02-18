@@ -83,24 +83,24 @@ Prior to commencing development, we first took a "bottom-up" approach and create
 
 After creating these behaviors, our focus shifted to the algorithm switching component of our system. We achieved this through the use of a function pool to store different algorithms, and a stack to keep track of the currently executing algorithm. The top-most algorithm on the stack is executed by the robot, and as the situation changes, relevant algorithms are pushed onto the stack accordingly. The following image provides a visual representation of how algorithm switching occurs:
 
-<div align="center">
-    <img src="./images/image6.png" alt="algorithm-switching-1"  width="600" />
-    <p><i>Figure 02: Algorith Switching - I</i></p>
-</div>
+<p align="center">
+    <img src="./images/image6.png" alt="algorithm-switching-1"  width="600" /><br />
+    <span><i>Figure 02: Algorith Switching - I</i></span>
+</p>
 
-<div align="center">
-    <img src="./images/image5.png" alt="algorithm-switching-2" width="600" />
-    <p><i>Figure 03: Algorith Switching - II</i></p>
-</div>
+<p align="center">
+    <img src="./images/image5.png" alt="algorithm-switching-2" width="600" /><br />
+    <span><i>Figure 03: Algorith Switching - II</i></span>
+</p>
 
 This approach provides a flexible and efficient way of managing multiple algorithms for a swarm of robots, allowing them to adapt to changing environmental conditions in real-time.
 
 An example of a complex swarm behavior that can be implemented using our atomic swarm behaviors and algorithm switching approach is "Follow the Leader". This behavior involves the robots following a leader robot as it moves through an environment. To implement this behavior, the leader robot executes an algorithm that moves it through the environment, while the follower robots execute an algorithm that enables them to follow the leader.
 
-<div align="center">
-    <img src="./images/image1.png" alt="follow-the-leader" width="600" />
-    <p><i>Figure 04: Follow The Leader</i></p>
-</div>
+<p align="center">
+    <img src="./images/image1.png" alt="follow-the-leader" width="600" /><br />
+    <span><i>Figure 04: Follow The Leader</i></span>
+</p>
 
 We have all the necessary methodologies at this time to begin implementing our framework.
 
@@ -111,25 +111,25 @@ We have all the necessary methodologies at this time to begin implementing our f
 
 In summary, our solution involves a high-level programming and compiler framework for creating swarm behaviors, as well as an architecture that allows for easy deployment of those behaviors to multiple robots. The swarm programmer inputs their desired swarm behavior into our web application, which generates C++ code and firmware using our code generator. Then generated code will be converted into binaries. These binaries are then uploaded to the robots using MQTT, enabling the robots to execute the desired swarm behavior.
 
-<div align="center">
-    <img src="./images/image3.png" alt="big-picture" width="700" />
-    <p><i>Figure 05: The Big Picture</i></p>
-</div>
+<p align="center">
+    <img src="./images/image3.png" alt="big-picture" width="700" /><br />
+    <span><i>Figure 05: The Big Picture</i></span>
+</p>
 
 ### Solution Architecture of SwarmFramework
 ---
 
-<div align="center">
-    <img src="./images/image2.png" alt="solution-architecture" width="700" />
-    <p><i>Figure 06: Architecture Diagram</i></p>
-</div>
+<p align="center">
+    <img src="./images/image2.png" alt="solution-architecture" width="700" /><br />
+    <span><i>Figure 06: Architecture Diagram</i></span>
+</p>
 
 Our solution consists of a web application that provides an interface for interacting with the swarm programmer, as well as a backend running on a Linux container.
 
-<div align="center">
-    <img src="./images/image4.png" alt="code-generation-process" width="700" />
-    <p><i>Figure 07: Code Generation</i></p>
-</div>
+<p align="center">
+    <img src="./images/image4.png" alt="code-generation-process" width="700" /><br />
+    <span><i>Figure 07: Code Generation</i></span>
+</p>
 
 When the swarm programmer inputs their desired swarm behavior and dynamic configurations, our algorithm generator generates C++ code, which is then combined with base firmware and fed into PlatformIO Command-Line Interface (CLI) to convert them into binaries. These binaries are then uploaded to the robots, allowing them to execute the desired swarm behavior.
 
@@ -138,10 +138,10 @@ This architecture provides a streamlined and efficient way of generating and dep
 ### Over The Air(OTA) Upload
 ---
 
-<div align="center">
-    <img src="./images/image8.png" alt="ota-upload" width="800" />
-    <p><i>Figure 08: OTA Upload</i></p>
-</div>
+<p align="center">
+    <img src="./images/image8.png" alt="ota-upload" width="800" /><br />
+    <span><i>Figure 08: OTA Upload</i></span>
+</p>
 
 For over-the-air (OTA) updates of our swarm robot system, we use MQTT messaging to send the generated binaries from our framework to the robots. When an update is available, an MQTT message is sent to the robots directing them to download the relevant binaries from the server. Each robot then downloads the appropriate binaries from the server and installs them, allowing the updated swarm behavior to be executed. 
 
@@ -150,10 +150,10 @@ For over-the-air (OTA) updates of our swarm robot system, we use MQTT messaging 
 
 As a result of our work, we were able to successfully integrate the Google Blockly tool into our system, providing an intuitive way for swarm programmers to create and visualize swarm behaviors. We also developed a custom JavaScript to C++ code generator to convert Blockly JavaScript code into C++ code, allowing the generated code to be executed on our robot hardware. By using MQTT to upload the code to the robots, we were able to successfully demonstrate a color ripple algorithm, highlighting the effectiveness of our approach.
 
-<div align="center">
+<p align="center">
   <a href="https://www.youtube.com/watch?v=QiCPhQCV91k"><img src="https://img.youtube.com/vi/QiCPhQCV91k/0.jpg" alt="ALT_TEXT"></a><br />
-    <p><i>Figure 09: Demonstration Video</i></p>
-</div>
+    <span><i>Figure 09: Demonstration Video</i></span>
+</p>
 
 ## Conclusion
 
