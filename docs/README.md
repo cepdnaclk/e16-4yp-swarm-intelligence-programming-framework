@@ -75,8 +75,8 @@ EmSBot Script is a smaller virtual machine-based software framework designed to 
 Prior to commencing development, we first took a "bottom-up" approach and created models for a range of atomic swarm behaviors. By breaking down complex behaviors into their constituent parts, we were able to better understand how different behaviors interact and contribute to overall swarm behavior. These atomic swarm behaviors were then used to construct more complex swarm behaviors. This knowledge helped guide the development of our high-level programming and compiler framework, enabling us to better support a wide range of swarm behaviors.
 
 <p align="center">
-    <img src="./images/image7.png" alt="swarm-behaviours" width="600">
-    <p><i>Figure 01: Swarm Behaviors</i></p>
+    <img src="./images/image7.png" alt="swarm-behaviours" width="600" /><br />
+    <span><i>Figure 01: Swarm Behaviors</i></span>
 </p>
 
 
