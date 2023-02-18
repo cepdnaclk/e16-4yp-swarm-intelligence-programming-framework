@@ -50,23 +50,23 @@ The presented project is a component of the larger [PeraSwarm](https://pera-swar
 
 ## Related works
 ---
-##### **On programming paradigms that abstract lower level hardware functionalities:**
+##### On programming paradigms that abstract lower level hardware functionalities:
 
 Various programming paradigms have been developed to abstract the lower-level functionalities of hardware in robotics. Such paradigms facilitate the creation of robot control software in high-level programming languages, while still allowing fine-grained control over the hardware. Examples of such programming paradigms include Robot Operating System (ROS), which provides a distributed, modular and component-based framework, and Arduino, which supports C/C++ programming for microcontrollers.
 
-##### **On different frameworks implemented for swarm drones:**
+##### On different frameworks implemented for swarm drones:
 
 Swarm drones, which are unmanned aerial vehicles (UAVs) that can operate as a collective, have attracted significant research interest in recent years. A number of different software frameworks have been developed for swarm drone applications, including the Aerial Swarms framework, the PX4 framework, and the AirSim simulator. These frameworks provide a range of features, such as formation control, collision avoidance, and obstacle detection, which facilitate the development of swarm drone applications.
 
-##### **On swarm UI frameworks with codeless approaches:**
+##### On swarm UI frameworks with codeless approaches:
 
 Swarm UI frameworks are designed to simplify the creation of user interfaces for swarm robotics applications. These frameworks often employ codeless approaches, such as drag-and-drop interfaces, to make it easier for non-technical users to create and modify the interfaces. Examples of swarm UI frameworks include SwarmUI, which provides a web-based interface for configuring and controlling swarm robots, and SwarmBot, which offers a graphical interface for programming swarm robots.
 
-##### **On a modular framework supporting limited hardware architectures called EmSBot:**
+##### On a modular framework supporting limited hardware architectures called EmSBot:
 
 EmSBot is a modular framework designed to support a limited range of hardware architectures. The framework consists of a set of hardware modules and software libraries that can be combined to create robot applications. EmSBot provides a range of features, such as support for different sensors and actuators, and allows for the creation of robot applications using C/C++ or Python programming languages.
 
-##### **On EmSBot Script, a smaller virtual machine-based software framework for programming swarm robots:**
+##### On EmSBot Script, a smaller virtual machine-based software framework for programming swarm robots:
 
 EmSBot Script is a smaller virtual machine-based software framework designed to address some of the most challenging aspects of programming swarm robots. The framework allows for the creation of robot applications using a simple scripting language, and provides a range of features such as communication and synchronization mechanisms. EmSBot Script is designed to be lightweight and easy to use, making it a suitable choice for low-end hardware platforms.
 
