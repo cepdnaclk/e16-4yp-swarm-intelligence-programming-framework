@@ -164,7 +164,7 @@ In conclusion, our work has demonstrated the feasibility of using a high-level p
 
 1. [Semester 7 report](./publications/semester_7_report.pdf)
 2. [Semester 7 slides](./publications/semester_7_slides.pdf)
-3. [Semester 8 report](./)
+3. [Semester 8 report](./publications/semester_8_report.pdf)
 4. [Semester 8 slides](./publications/semester_8_slides.pdf)
 <!-- 5. Author 1, Author 2 and Author 3 "Research paper title" (2021). [PDF](./). -->
 
